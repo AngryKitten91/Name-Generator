@@ -5,10 +5,10 @@ function createName(a, b, num) {
         return a[Math.floor((Math.random() * a.length))].toUpperCase();
     }
     for(let i = 0; i < num; i++){
-        console.error(`${pickHelp(a)} ${pickHelp(b)}`);
+        console.log(`${pickHelp(a)} ${pickHelp(b)}`);
         // console.log(pickHelp(a), pickHelp(b));
     }
 }
 
-createName(arrays.adjective, arrays.noun, 1);
+createName(arrays.adjective, arrays.noun, 5);
 
